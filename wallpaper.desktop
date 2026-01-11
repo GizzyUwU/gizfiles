@@ -1,1 +1,8 @@
-/home/gizzy/.local/share/applications/wallpaper.desktop
+[Desktop Entry]
+Type=Application
+Name=Choose a Wallpaper
+Comment=Choose a Wallpaper
+Exec=sh -c "$HOME/.config/dotfiles/wallpaper.sh && sleep 100"
+Icon=applications-graphics-symbolic
+Terminal=false
+Categories=Settings;Desktop;
